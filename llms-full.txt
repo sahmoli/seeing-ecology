@@ -1,0 +1,97 @@
+# Juan Li · Seeing Ecology (看见生态)
+
+> Bilingual, primary-literature-verified visual & interactive explainers of core concepts in ecology and conservation biology.
+> Author: Juan Li (李娟), Assistant Professor, Xi'an Jiaotong-Liverpool University (XJTLU)
+> Website: https://juanli.me/seeing-ecology/
+> English Hub: https://juanli.me/seeing-ecology/en/
+> Agent Access: https://juanli.me/seeing-ecology/agent/
+> GitHub: https://github.com/sahmoli/seeing-ecology
+
+## Machine-Readable Endpoints
+- Skill Instructions: https://juanli.me/seeing-ecology/agent/SKILL.md
+- Full Concept Reference: https://juanli.me/seeing-ecology/llms-full.txt
+- Concepts JSON API (v1): https://juanli.me/seeing-ecology/api/v1/concepts.json
+- Concept Graph JSON API (v1): https://juanli.me/seeing-ecology/api/v1/graph.json
+- RSS Feed (ZH): https://juanli.me/seeing-ecology/feed.zh.xml
+- RSS Feed (EN): https://juanli.me/seeing-ecology/feed.en.xml
+
+## Published Concept Explainers
+- **Flagship species (旗舰种)**: A species chosen as the focus of a conservation marketing campaign based on traits that appeal to a target audience, mobilizing attention and funding. / 凭契合目标受众的特征被选作保护营销重心，用来凝聚关注、共识与资金支持的物种。
+  - Chinese URL: https://juanli.me/seeing-ecology/flagship/zh/
+  - English URL: https://juanli.me/seeing-ecology/flagship/en/
+  - Primary Literature: Heywood 1995 · Walpole & Leader-Williams 2002 · Veríssimo et al. 2011
+- **Umbrella species (伞护种)**: A species whose conservation confers protection to a large number of naturally co-occurring species across its required habitat area. / 保护它所需的生境面积与生境结构，就能顺带庇护许多同域自然共存物种的物种。
+  - Chinese URL: https://juanli.me/seeing-ecology/umbrella/zh/
+  - English URL: https://juanli.me/seeing-ecology/umbrella/zh/
+  - Primary Literature: Wilcox 1984 · Fleishman et al. 2000 · Roberge & Angelstam 2004
+- **Keystone species (关键种)**: A species whose impact on its community or ecosystem is large, and disproportionately large relative to its abundance. / 对群落或生态系统的影响很大，且相对于其自身丰度而言不成比例地大的物种。
+  - Chinese URL: https://juanli.me/seeing-ecology/keystone/zh/
+  - English URL: https://juanli.me/seeing-ecology/keystone/zh/
+  - Primary Literature: Paine 1966, 1969 · Power et al. 1996 · Estes et al. 2011
+
+## Upcoming Concept Nodes in the Graph
+- **Indicator species (指示种)**: A species whose presence, abundance, or physiological state reflects environmental conditions, disturbance, or community richness. (Landres et al. 1988 · Caro & O'Doherty 1999)
+- **Metapopulation & source–sink (集合种群与源-汇动态)**: Spatially discrete local populations connected by dispersal, persisting through the balance of local extinction and recolonization. (Levins 1969 · Pulliam 1988 · Hanski 1998)
+- **Trophic cascade (营养级联)**: Indirect top-down effects of predators across two or more trophic links, releasing primary producers from herbivory. (Paine 1980 · Carpenter et al. 1985 · Ripple et al. 2016)
+- **Ecological niche (生态位)**: The n-dimensional hypervolume of environmental conditions and resources permitting positive growth (fundamental vs. realized niche). (Grinnell 1917 · Elton 1927 · Hutchinson 1957 · Soberón 2007)
+
+## Bidirectional Concept Graph (Forward & Reverse Relationships)
+### 旗舰种 / Flagship species (`flagship`)
+- **Core Definition (ZH)**: 凭契合目标受众的特征被选作保护营销重心，用来凝聚关注、共识与资金支持的物种。
+- **Core Definition (EN)**: A species chosen as the focus of a conservation marketing campaign based on traits that appeal to a target audience, mobilizing attention and funding.
+- **Key Citations**: Heywood 1995 · Walpole & Leader-Williams 2002 · Veríssimo et al. 2011
+- **Connected to 伞护种 (Umbrella species)**: 旗舰种按公众魅力选拔以募集资源，不自动具备大生境包络同域物种的伞护效应（Simberloff 1998）。 / Selected for public appeal and fundraising rather than large-area habitat co-occurrence (Simberloff 1998).
+- **Connected to 关键种 (Keystone species)**: 旗舰种属社会传播角色，移走它未必像关键种那样引发食物网与群落结构剧变（Caro & O'Doherty 1999）。 / A socio-marketing role; its removal need not trigger food-web collapse like a keystone species (Caro & O'Doherty 1999).
+- **Connected to 指示种 (Indicator species)**: 旗舰种服务于公众传播与筹款，而非像指示种那样用于监测环境变化或生物多样性状态。 / Serves public outreach and fundraising rather than monitoring environmental or biodiversity state.
+- **Referenced by 伞护种 (Umbrella species)**: 伞护种按大面积生境需求与同域物种共现率选拔，不同于按公众魅力选拔的旗舰种（Andelman & Fagan 2000）。
+- **Referenced by 关键种 (Keystone species)**: 关键种是实证生态学属性，许多关键种（如海星、高原鼠兔）因缺乏大众外貌魅力而非天然旗舰种。
+- **Referenced by 指示种 (Indicator species)**: 与旗舰种、伞护种并列为三类经典代理物种（Caro & O'Doherty 1999）。
+
+### 伞护种 / Umbrella species (`umbrella`)
+- **Core Definition (ZH)**: 保护它所需的生境面积与生境结构，就能顺带庇护许多同域自然共存物种的物种。
+- **Core Definition (EN)**: A species whose conservation confers protection to a large number of naturally co-occurring species across its required habitat area.
+- **Key Citations**: Wilcox 1984 · Fleishman et al. 2000 · Roberge & Angelstam 2004
+- **Connected to 旗舰种 (Flagship species)**: 伞护种按大面积生境需求与同域物种共现率选拔，不同于按公众魅力选拔的旗舰种（Andelman & Fagan 2000）。 / Defined by spatial habitat requirements and co-occurrence rather than public charisma (Andelman & Fagan 2000).
+- **Connected to 关键种 (Keystone species)**: 伞护种强调空间生境覆盖范围，关键种强调单位丰度对群落互作网络的不成比例影响（Simberloff 1998）。 / Focuses on spatial habitat coverage rather than disproportionate per-capita community impact (Simberloff 1998).
+- **Connected to 集合种群与源-汇动态 (Metapopulation & source–sink)**: 划定伞护种保护边界需以维持最小可存活种群（MVP）与集合种群连通性为前提（Wilcox 1984）。 / Sizing an umbrella reserve requires minimum viable population (MVP) and metapopulation connectivity (Wilcox 1984).
+- **Referenced by 旗舰种 (Flagship species)**: 旗舰种按公众魅力选拔以募集资源，不自动具备大生境包络同域物种的伞护效应（Simberloff 1998）。
+- **Referenced by 关键种 (Keystone species)**: 关键种由群落互作强度决定（如赭色海星），无需拥有伞护种那样广阔的家域面积（Power et al. 1996）。
+- **Referenced by 集合种群与源-汇动态 (Metapopulation & source–sink)**: 为伞护种保护区网络的面积与廊道设计提供种群动力学基础。
+
+### 关键种 / Keystone species (`keystone`)
+- **Core Definition (ZH)**: 对群落或生态系统的影响很大，且相对于其自身丰度而言不成比例地大的物种。
+- **Core Definition (EN)**: A species whose impact on its community or ecosystem is large, and disproportionately large relative to its abundance.
+- **Key Citations**: Paine 1966, 1969 · Power et al. 1996 · Estes et al. 2011
+- **Connected to 伞护种 (Umbrella species)**: 关键种由群落互作强度决定（如赭色海星），无需拥有伞护种那样广阔的家域面积（Power et al. 1996）。 / Defined by interaction strength (e.g., Pisaster sea star), not by a large home range (Power et al. 1996).
+- **Connected to 旗舰种 (Flagship species)**: 关键种是实证生态学属性，许多关键种（如海星、高原鼠兔）因缺乏大众外貌魅力而非天然旗舰种。 / An empirical ecological property; many keystones (sea stars, plateau pikas) lack popular charisma.
+- **Connected to 营养级联 (Trophic cascade)**: 顶级捕食者型关键种（如海獭、海星）常通过下行控制驱动跨营养级的营养级联（Estes et al. 2011）。 / Apex-predator keystones often drive top-down trophic cascades across food webs (Estes et al. 2011).
+- **Referenced by 旗舰种 (Flagship species)**: 旗舰种属社会传播角色，移走它未必像关键种那样引发食物网与群落结构剧变（Caro & O'Doherty 1999）。
+- **Referenced by 伞护种 (Umbrella species)**: 伞护种强调空间生境覆盖范围，关键种强调单位丰度对群落互作网络的不成比例影响（Simberloff 1998）。
+- **Referenced by 营养级联 (Trophic cascade)**: 关键捕食者移除实验是揭示营养级联的经典起点。
+
+### 指示种 / Indicator species (`indicator`)
+- **Core Definition (ZH)**: 其存在、丰度或生理状态可反映特定环境条件、人为干扰程度或群落物种丰富度的物种。
+- **Core Definition (EN)**: A species whose presence, abundance, or physiological state reflects environmental conditions, disturbance, or community richness.
+- **Key Citations**: Landres et al. 1988 · Caro & O'Doherty 1999
+- **Connected to 旗舰种 (Flagship species)**: 与旗舰种、伞护种并列为三类经典代理物种（Caro & O'Doherty 1999）。 / One of the three classic surrogate species classes alongside flagship and umbrella species (Caro & O'Doherty 1999).
+- **Referenced by 旗舰种 (Flagship species)**: 旗舰种服务于公众传播与筹款，而非像指示种那样用于监测环境变化或生物多样性状态。
+
+### 集合种群与源-汇动态 / Metapopulation & source–sink (`metapopulation`)
+- **Core Definition (ZH)**: 由空间离散但借扩散相连的局部种群组成的系统，其长期存续取决于局部绝灭与再定殖的动态平衡。
+- **Core Definition (EN)**: Spatially discrete local populations connected by dispersal, persisting through the balance of local extinction and recolonization.
+- **Key Citations**: Levins 1969 · Pulliam 1988 · Hanski 1998
+- **Connected to 伞护种 (Umbrella species)**: 为伞护种保护区网络的面积与廊道设计提供种群动力学基础。 / Provides the population-dynamic basis for sizing and connecting umbrella reserve networks.
+- **Referenced by 伞护种 (Umbrella species)**: 划定伞护种保护边界需以维持最小可存活种群（MVP）与集合种群连通性为前提（Wilcox 1984）。
+
+### 营养级联 / Trophic cascade (`trophic-cascade`)
+- **Core Definition (ZH)**: 捕食者通过抑制食草动物丰度或改变其行为，跨营养级间接促进初级生产者的链式效应。
+- **Core Definition (EN)**: Indirect top-down effects of predators across two or more trophic links, releasing primary producers from herbivory.
+- **Key Citations**: Paine 1980 · Carpenter et al. 1985 · Ripple et al. 2016
+- **Connected to 关键种 (Keystone species)**: 关键捕食者移除实验是揭示营养级联的经典起点。 / Keystone predator removal experiments are the classic empirical origin of trophic cascades.
+- **Referenced by 关键种 (Keystone species)**: 顶级捕食者型关键种（如海獭、海星）常通过下行控制驱动跨营养级的营养级联（Estes et al. 2011）。
+
+### 生态位 / Ecological niche (`niche`)
+- **Core Definition (ZH)**: 物种维持种群正增长所需的环境变量与资源超体积（基础生态位）及其受种间互作约束后的实际占据空间（实现生态位）。
+- **Core Definition (EN)**: The n-dimensional hypervolume of environmental conditions and resources permitting positive growth (fundamental vs. realized niche).
+- **Key Citations**: Grinnell 1917 · Elton 1927 · Hutchinson 1957 · Soberón 2007
+

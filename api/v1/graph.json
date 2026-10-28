@@ -1,0 +1,165 @@
+{
+  "schema": "seeing-ecology.graph.v1",
+  "updatedAt": "2026-10-28",
+  "nodes": [
+    {
+      "id": "flagship",
+      "title_zh": "旗舰种",
+      "title_en": "Flagship species",
+      "status": "published",
+      "url_zh": "https://juanli.me/seeing-ecology/flagship/zh/"
+    },
+    {
+      "id": "umbrella",
+      "title_zh": "伞护种",
+      "title_en": "Umbrella species",
+      "status": "published",
+      "url_zh": "https://juanli.me/seeing-ecology/umbrella/zh/"
+    },
+    {
+      "id": "keystone",
+      "title_zh": "关键种",
+      "title_en": "Keystone species",
+      "status": "published",
+      "url_zh": "https://juanli.me/seeing-ecology/keystone/zh/"
+    },
+    {
+      "id": "indicator",
+      "title_zh": "指示种",
+      "title_en": "Indicator species",
+      "status": "upcoming",
+      "url_zh": null
+    },
+    {
+      "id": "metapopulation",
+      "title_zh": "集合种群与源-汇动态",
+      "title_en": "Metapopulation & source–sink",
+      "status": "upcoming",
+      "url_zh": null
+    },
+    {
+      "id": "trophic-cascade",
+      "title_zh": "营养级联",
+      "title_en": "Trophic cascade",
+      "status": "upcoming",
+      "url_zh": null
+    },
+    {
+      "id": "niche",
+      "title_zh": "生态位",
+      "title_en": "Ecological niche",
+      "status": "upcoming",
+      "url_zh": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "flagship",
+      "target": "umbrella",
+      "type": "contrasts",
+      "context": {
+        "zh": "旗舰种按公众魅力选拔以募集资源，不自动具备大生境包络同域物种的伞护效应（Simberloff 1998）。",
+        "en": "Selected for public appeal and fundraising rather than large-area habitat co-occurrence (Simberloff 1998)."
+      }
+    },
+    {
+      "source": "flagship",
+      "target": "keystone",
+      "type": "contrasts",
+      "context": {
+        "zh": "旗舰种属社会传播角色，移走它未必像关键种那样引发食物网与群落结构剧变（Caro & O'Doherty 1999）。",
+        "en": "A socio-marketing role; its removal need not trigger food-web collapse like a keystone species (Caro & O'Doherty 1999)."
+      }
+    },
+    {
+      "source": "flagship",
+      "target": "indicator",
+      "type": "contrasts",
+      "context": {
+        "zh": "旗舰种服务于公众传播与筹款，而非像指示种那样用于监测环境变化或生物多样性状态。",
+        "en": "Serves public outreach and fundraising rather than monitoring environmental or biodiversity state."
+      }
+    },
+    {
+      "source": "umbrella",
+      "target": "flagship",
+      "type": "contrasts",
+      "context": {
+        "zh": "伞护种按大面积生境需求与同域物种共现率选拔，不同于按公众魅力选拔的旗舰种（Andelman & Fagan 2000）。",
+        "en": "Defined by spatial habitat requirements and co-occurrence rather than public charisma (Andelman & Fagan 2000)."
+      }
+    },
+    {
+      "source": "umbrella",
+      "target": "keystone",
+      "type": "contrasts",
+      "context": {
+        "zh": "伞护种强调空间生境覆盖范围，关键种强调单位丰度对群落互作网络的不成比例影响（Simberloff 1998）。",
+        "en": "Focuses on spatial habitat coverage rather than disproportionate per-capita community impact (Simberloff 1998)."
+      }
+    },
+    {
+      "source": "umbrella",
+      "target": "metapopulation",
+      "type": "prereq",
+      "context": {
+        "zh": "划定伞护种保护边界需以维持最小可存活种群（MVP）与集合种群连通性为前提（Wilcox 1984）。",
+        "en": "Sizing an umbrella reserve requires minimum viable population (MVP) and metapopulation connectivity (Wilcox 1984)."
+      }
+    },
+    {
+      "source": "keystone",
+      "target": "umbrella",
+      "type": "contrasts",
+      "context": {
+        "zh": "关键种由群落互作强度决定（如赭色海星），无需拥有伞护种那样广阔的家域面积（Power et al. 1996）。",
+        "en": "Defined by interaction strength (e.g., Pisaster sea star), not by a large home range (Power et al. 1996)."
+      }
+    },
+    {
+      "source": "keystone",
+      "target": "flagship",
+      "type": "contrasts",
+      "context": {
+        "zh": "关键种是实证生态学属性，许多关键种（如海星、高原鼠兔）因缺乏大众外貌魅力而非天然旗舰种。",
+        "en": "An empirical ecological property; many keystones (sea stars, plateau pikas) lack popular charisma."
+      }
+    },
+    {
+      "source": "keystone",
+      "target": "trophic-cascade",
+      "type": "extends",
+      "context": {
+        "zh": "顶级捕食者型关键种（如海獭、海星）常通过下行控制驱动跨营养级的营养级联（Estes et al. 2011）。",
+        "en": "Apex-predator keystones often drive top-down trophic cascades across food webs (Estes et al. 2011)."
+      }
+    },
+    {
+      "source": "indicator",
+      "target": "flagship",
+      "type": "contrasts",
+      "context": {
+        "zh": "与旗舰种、伞护种并列为三类经典代理物种（Caro & O'Doherty 1999）。",
+        "en": "One of the three classic surrogate species classes alongside flagship and umbrella species (Caro & O'Doherty 1999)."
+      }
+    },
+    {
+      "source": "metapopulation",
+      "target": "umbrella",
+      "type": "extends",
+      "context": {
+        "zh": "为伞护种保护区网络的面积与廊道设计提供种群动力学基础。",
+        "en": "Provides the population-dynamic basis for sizing and connecting umbrella reserve networks."
+      }
+    },
+    {
+      "source": "trophic-cascade",
+      "target": "keystone",
+      "type": "prereq",
+      "context": {
+        "zh": "关键捕食者移除实验是揭示营养级联的经典起点。",
+        "en": "Keystone predator removal experiments are the classic empirical origin of trophic cascades."
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Juan Li · Seeing Ecology (看见生态): Bilingual Visual & Interactive Explainers of Core Ecology Concepts"
+message: "If you use these visual explainers, concept definitions, or citation-checked concept graphs in teaching or research, please cite this repository."
+type: software
+authors:
+  - family-names: Li
+    given-names: Juan
+    affiliation: "Xi'an Jiaotong-Liverpool University (XJTLU)"
+    orcid: "https://orcid.org/0000-0003-1147-2188"
+repository-code: "https://github.com/sahmoli/seeing-ecology"
+url: "https://juanli.me/seeing-ecology/"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-10-28"
+keywords:
+  - ecology
+  - conservation-biology
+  - visual-explanation
+  - explorable-explanations
+  - surrogate-species
+  - flagship-species
+  - umbrella-species
+  - keystone-species
+  - bilingual

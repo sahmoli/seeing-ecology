@@ -1,0 +1,8 @@
+cc/
+*.pdf
+*.bak.*
+__pycache__/
+*.py[cod]
+.DS_Store
+seeing-ecology-private/
+reflections/

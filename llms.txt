@@ -1,0 +1,36 @@
+# Juan Li · Seeing Ecology (看见生态)
+
+> Bilingual, primary-literature-verified visual & interactive explainers of core concepts in ecology and conservation biology.
+> Author: Juan Li (李娟), Assistant Professor, Xi'an Jiaotong-Liverpool University (XJTLU)
+> Website: https://juanli.me/seeing-ecology/
+> English Hub: https://juanli.me/seeing-ecology/en/
+> Agent Access: https://juanli.me/seeing-ecology/agent/
+> GitHub: https://github.com/sahmoli/seeing-ecology
+
+## Machine-Readable Endpoints
+- Skill Instructions: https://juanli.me/seeing-ecology/agent/SKILL.md
+- Full Concept Reference: https://juanli.me/seeing-ecology/llms-full.txt
+- Concepts JSON API (v1): https://juanli.me/seeing-ecology/api/v1/concepts.json
+- Concept Graph JSON API (v1): https://juanli.me/seeing-ecology/api/v1/graph.json
+- RSS Feed (ZH): https://juanli.me/seeing-ecology/feed.zh.xml
+- RSS Feed (EN): https://juanli.me/seeing-ecology/feed.en.xml
+
+## Published Concept Explainers
+- **Flagship species (旗舰种)**: A species chosen as the focus of a conservation marketing campaign based on traits that appeal to a target audience, mobilizing attention and funding. / 凭契合目标受众的特征被选作保护营销重心，用来凝聚关注、共识与资金支持的物种。
+  - Chinese URL: https://juanli.me/seeing-ecology/flagship/zh/
+  - English URL: https://juanli.me/seeing-ecology/flagship/en/
+  - Primary Literature: Heywood 1995 · Walpole & Leader-Williams 2002 · Veríssimo et al. 2011
+- **Umbrella species (伞护种)**: A species whose conservation confers protection to a large number of naturally co-occurring species across its required habitat area. / 保护它所需的生境面积与生境结构，就能顺带庇护许多同域自然共存物种的物种。
+  - Chinese URL: https://juanli.me/seeing-ecology/umbrella/zh/
+  - English URL: https://juanli.me/seeing-ecology/umbrella/zh/
+  - Primary Literature: Wilcox 1984 · Fleishman et al. 2000 · Roberge & Angelstam 2004
+- **Keystone species (关键种)**: A species whose impact on its community or ecosystem is large, and disproportionately large relative to its abundance. / 对群落或生态系统的影响很大，且相对于其自身丰度而言不成比例地大的物种。
+  - Chinese URL: https://juanli.me/seeing-ecology/keystone/zh/
+  - English URL: https://juanli.me/seeing-ecology/keystone/zh/
+  - Primary Literature: Paine 1966, 1969 · Power et al. 1996 · Estes et al. 2011
+
+## Upcoming Concept Nodes in the Graph
+- **Indicator species (指示种)**: A species whose presence, abundance, or physiological state reflects environmental conditions, disturbance, or community richness. (Landres et al. 1988 · Caro & O'Doherty 1999)
+- **Metapopulation & source–sink (集合种群与源-汇动态)**: Spatially discrete local populations connected by dispersal, persisting through the balance of local extinction and recolonization. (Levins 1969 · Pulliam 1988 · Hanski 1998)
+- **Trophic cascade (营养级联)**: Indirect top-down effects of predators across two or more trophic links, releasing primary producers from herbivory. (Paine 1980 · Carpenter et al. 1985 · Ripple et al. 2016)
+- **Ecological niche (生态位)**: The n-dimensional hypervolume of environmental conditions and resources permitting positive growth (fundamental vs. realized niche). (Grinnell 1917 · Elton 1927 · Hutchinson 1957 · Soberón 2007)
