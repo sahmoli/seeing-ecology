@@ -142,6 +142,8 @@ footer .ai a:hover{border-bottom-style:solid}
 
 
 
+
+
 main{max-width:1232px!important;margin:0 auto;padding:24px 40px 96px!important}
 .hero-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:48px;align-items:center}
 .hero video{width:100%;height:auto;display:block;margin-top:0!important;border-radius:12px;border:1px solid var(--rule);background:var(--card)}
@@ -153,6 +155,9 @@ main{max-width:1232px!important;margin:0 auto;padding:24px 40px 96px!important}
 .pview{display:none}
 .pview.active{display:block}
 .crit-grid .plot svg{margin-top:0!important;background:var(--card);border-radius:12px;padding:16px;border:1px solid var(--rule)}
+.plot .dot,.plot .diag,.plot .zt{opacity:1!important;animation:none!important}
+.plot .zone{opacity:.08!important;animation:none!important}
+.plot .dot .g{transform:translateY(0)!important;animation:none!important}
 .exs .pairs{gap:24px}
 .tl{display:grid;grid-template-columns:1fr 1fr;gap:18px 28px;padding-left:0!important}
 .tl::before{display:none!important}
@@ -247,7 +252,7 @@ footer .ai a:hover{color:var(--rust);text-decoration:underline}
   <div class="may"><h3>常见，但不是必需</h3><ul>
     <li>与碳信用捆绑或叠加交易</li><li>以单一魅力旗舰种命名营销</li><li>采取全球统一的固定面积或时间单位</li></ul></div>
 </div>
-<div class="plot">
+<div class="plot play">
 <div class="plot-tabs" role="tablist" aria-label="机制切换">
   <button type="button" class="ptab active" data-pv="pv1">① 抵消 vs. 信用象限</button>
   <button type="button" class="ptab" data-pv="pv2">② 反事实额外性基线 ΔB(t)</button>

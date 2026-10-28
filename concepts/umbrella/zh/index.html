@@ -141,6 +141,8 @@ footer .ai a:hover{border-bottom-style:solid}
 
 
 
+
+
 main{max-width:1232px!important;margin:0 auto;padding:24px 40px 96px!important}
 .hero-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:48px;align-items:center}
 .hero video{width:100%;height:auto;display:block;margin-top:0!important;border-radius:12px;border:1px solid var(--rule);background:var(--card)}
@@ -152,6 +154,9 @@ main{max-width:1232px!important;margin:0 auto;padding:24px 40px 96px!important}
 .pview{display:none}
 .pview.active{display:block}
 .crit-grid .plot svg{margin-top:0!important;background:var(--card);border-radius:12px;padding:16px;border:1px solid var(--rule)}
+.plot .dot,.plot .diag,.plot .zt{opacity:1!important;animation:none!important}
+.plot .zone{opacity:.08!important;animation:none!important}
+.plot .dot .g{transform:translateY(0)!important;animation:none!important}
 .exs .pairs{gap:24px}
 .tl{display:grid;grid-template-columns:1fr 1fr;gap:18px 28px;padding-left:0!important}
 .tl::before{display:none!important}
@@ -245,7 +250,7 @@ footer .ai a:hover{color:var(--rust);text-decoration:underline}
   <div class="may"><h3>常见，但不是必需</h3><ul>
     <li>体型大、活动范围广</li><li>食肉目或大型脊椎动物</li><li>稀有、濒危</li></ul></div>
 </div>
-<div class="plot"><svg viewBox="0 0 700 420" aria-label="保护面积占比与受庇护同域物种占比示意">
+<div class="plot play"><svg viewBox="0 0 700 420" aria-label="保护面积占比与受庇护同域物种占比示意">
   <polygon class="zone" points="70,370 190,145 480,72 660,58 70,370"/>
   <line class="diag" x1="70" y1="370" x2="660" y2="58"/>
   <path class="diag" d="M70,370 Q190,130 480,82 L660,72" fill="none" style="stroke:var(--rust);stroke-dasharray:none;stroke-width:1.8"/>
@@ -312,6 +317,8 @@ footer .ai a:hover{color:var(--rust);text-decoration:underline}
   <div class="deb-card"><b>圈进保护区等于管理有益吗</b><p>宏观上划定保护区能减少人类开发，但针对单一伞护种的局部生境改造（如割灌、火烧）可能破坏非目标伴生物种赖以生存的微生境结构。</p><div class="ref">Rowland et al. 2006 · Carlisle et al. 2018</div></div>
 
 </div>
+</section>
+</section>
 </section>
 </section>
 </section>
