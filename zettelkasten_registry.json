@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
+  "version": "1.5",
   "updated": "2026-10-28",
   "title": "Juan Li · Seeing Ecology",
   "notes": [
@@ -114,13 +114,13 @@
       "url_en": "../biodiversity-credits/en/index.html",
       "essence_zh": "代表经科学测量、独立第三方核证且具持久性与额外性的生物多样性净增益的可交易单位，用于资助正向保护与恢复，而非抵消异地破坏。",
       "essence_en": "A measurable, independently verified, tradable unit of durable and additional net positive biodiversity gain that funds conservation or restoration rather than offsetting damage.",
-      "cites": "KMGBF 2022 · 彭杨靖等 2024 · Wauchope et al. 2024 · Wunder et al. 2025 · 彭杨靖, 彭奎等 2026",
+      "cites": "KMGBF 2022 · BCA 2024 · Wauchope et al. 2024 · Peng et al. 2024, 2026",
       "links": [
         {
           "target": "flagship",
           "type": "extends",
           "label_zh": "延伸",
-          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭杨靖, 彭奎等 2026）。",
+          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（Peng et al. 2026）。",
           "context_en": "Voluntary buyer demand and price premiums are often driven by flagship charisma, though verification requires multi-taxa evidence (Peng et al. 2026)."
         },
         {
