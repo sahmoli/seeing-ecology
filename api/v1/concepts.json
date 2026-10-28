@@ -73,7 +73,7 @@
           "source": "biodiversity-credits",
           "source_title_zh": "生物多样性信用",
           "source_title_en": "Biodiversity credits",
-          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（Peng et al. 2026）。",
+          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭杨靖, 彭奎等 2026）。",
           "context_en": "Voluntary buyer demand and price premiums are often driven by flagship charisma, though verification requires multi-taxa evidence (Peng et al. 2026)."
         },
         {
@@ -245,10 +245,13 @@
         "en": "A measurable, independently verified, tradable unit of durable and additional net positive biodiversity gain that funds conservation or restoration rather than offsetting damage."
       },
       "citations": [
+        "Maron et al. 2012",
+        "Bull & Strange 2018",
         "KMGBF 2022",
-        "BCA 2024",
+        "彭杨靖等 2024",
         "Wauchope et al. 2024",
-        "Peng et al. 2024, 2026"
+        "Wunder et al. 2025",
+        "彭杨靖, 彭奎等 2026"
       ],
       "urls": {
         "zh": "https://juanli.me/seeing-ecology/biodiversity-credits/zh/",
@@ -259,7 +262,7 @@
           "target": "flagship",
           "target_title_zh": "旗舰种",
           "target_title_en": "Flagship species",
-          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（Peng et al. 2026）。",
+          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭杨靖, 彭奎等 2026）。",
           "context_en": "Voluntary buyer demand and price premiums are often driven by flagship charisma, though verification requires multi-taxa evidence (Peng et al. 2026)."
         },
         {

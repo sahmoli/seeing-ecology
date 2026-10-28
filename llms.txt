@@ -31,7 +31,7 @@
 - **Biodiversity credits (生物多样性信用)**: A measurable, independently verified, tradable unit of durable and additional net positive biodiversity gain that funds conservation or restoration rather than offsetting damage. / 代表经科学测量、独立第三方核证且具持久性与额外性的生物多样性净增益的可交易单位，用于资助正向保护与恢复，而非抵消异地破坏。
   - Chinese URL: https://juanli.me/seeing-ecology/biodiversity-credits/zh/
   - English URL: https://juanli.me/seeing-ecology/biodiversity-credits/en/
-  - Primary Literature: KMGBF 2022 · BCA 2024 · Wauchope et al. 2024 · Peng et al. 2024, 2026
+  - Primary Literature: Maron et al. 2012 · Bull & Strange 2018 · KMGBF 2022 · 彭杨靖等 2024 · Wauchope et al. 2024 · Wunder et al. 2025 · 彭杨靖, 彭奎等 2026
 
 ## Upcoming Concept Nodes in the Graph
 - **Indicator species (指示种)**: A species whose presence, abundance, or physiological state reflects environmental conditions, disturbance, or community richness. (Landres et al. 1988 · Caro & O'Doherty 1999)

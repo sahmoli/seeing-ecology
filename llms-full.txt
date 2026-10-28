@@ -31,7 +31,7 @@
 - **Biodiversity credits (生物多样性信用)**: A measurable, independently verified, tradable unit of durable and additional net positive biodiversity gain that funds conservation or restoration rather than offsetting damage. / 代表经科学测量、独立第三方核证且具持久性与额外性的生物多样性净增益的可交易单位，用于资助正向保护与恢复，而非抵消异地破坏。
   - Chinese URL: https://juanli.me/seeing-ecology/biodiversity-credits/zh/
   - English URL: https://juanli.me/seeing-ecology/biodiversity-credits/en/
-  - Primary Literature: KMGBF 2022 · BCA 2024 · Wauchope et al. 2024 · Peng et al. 2024, 2026
+  - Primary Literature: Maron et al. 2012 · Bull & Strange 2018 · KMGBF 2022 · 彭杨靖等 2024 · Wauchope et al. 2024 · Wunder et al. 2025 · 彭杨靖, 彭奎等 2026
 
 ## Upcoming Concept Nodes in the Graph
 - **Indicator species (指示种)**: A species whose presence, abundance, or physiological state reflects environmental conditions, disturbance, or community richness. (Landres et al. 1988 · Caro & O'Doherty 1999)
@@ -49,7 +49,7 @@
 - **Connected to 指示种 (Indicator species)**: 旗舰种服务于公众传播与筹款，而非像指示种那样用于监测环境变化或生物多样性状态。 / Serves public outreach and fundraising rather than monitoring environmental or biodiversity state.
 - **Referenced by 伞护种 (Umbrella species)**: 伞护种按大面积生境需求与同域物种共现率选拔，不同于按公众魅力选拔的旗舰种（Andelman & Fagan 2000）。
 - **Referenced by 关键种 (Keystone species)**: 关键种是实证生态学属性，许多关键种（如海星、高原鼠兔）因缺乏大众外貌魅力而非天然旗舰种。
-- **Referenced by 生物多样性信用 (Biodiversity credits)**: 自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（Peng et al. 2026）。
+- **Referenced by 生物多样性信用 (Biodiversity credits)**: 自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭杨靖, 彭奎等 2026）。
 - **Referenced by 指示种 (Indicator species)**: 与旗舰种、伞护种并列为三类经典代理物种（Caro & O'Doherty 1999）。
 
 ### 伞护种 / Umbrella species (`umbrella`)
@@ -79,8 +79,8 @@
 ### 生物多样性信用 / Biodiversity credits (`biodiversity-credits`)
 - **Core Definition (ZH)**: 代表经科学测量、独立第三方核证且具持久性与额外性的生物多样性净增益的可交易单位，用于资助正向保护与恢复，而非抵消异地破坏。
 - **Core Definition (EN)**: A measurable, independently verified, tradable unit of durable and additional net positive biodiversity gain that funds conservation or restoration rather than offsetting damage.
-- **Key Citations**: KMGBF 2022 · BCA 2024 · Wauchope et al. 2024 · Peng et al. 2024, 2026
-- **Connected to 旗舰种 (Flagship species)**: 自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（Peng et al. 2026）。 / Voluntary buyer demand and price premiums are often driven by flagship charisma, though verification requires multi-taxa evidence (Peng et al. 2026).
+- **Key Citations**: Maron et al. 2012 · Bull & Strange 2018 · KMGBF 2022 · 彭杨靖等 2024 · Wauchope et al. 2024 · Wunder et al. 2025 · 彭杨靖, 彭奎等 2026
+- **Connected to 旗舰种 (Flagship species)**: 自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭杨靖, 彭奎等 2026）。 / Voluntary buyer demand and price premiums are often driven by flagship charisma, though verification requires multi-taxa evidence (Peng et al. 2026).
 - **Connected to 伞护种 (Umbrella species)**: 多项信用规程（如 Savimbo 美洲豹信用与 ERA 伞护种规程）以伞护种家域划定项目空间边界，包络同域群落净增益（ERA 2025）。 / Crediting protocols (e.g., Savimbo jaguar credits, ERA protocol) use umbrella home ranges to bound project area and co-occurring gains (ERA 2025).
 - **Connected to 关键种 (Keystone species)**: 关键种缺失引发的营养级联与食物网退化需纳入一篮子多维指标核证，不能用单一树种造林替代（Wauchope et al. 2024）。 / Trophic cascades and food-web functions driven by keystone species must be captured in multi-metric baskets rather than monoculture planting (Wauchope et al. 2024).
 - **Connected to 指示种 (Indicator species)**: “一篮子多维指标”依赖对生境恢复或污染削减敏感的多类群指示种核证真实净增益，防范单一种树或放生漂绿（Wauchope et al. 2024）。 / Basket-of-metrics accounting relies on multi-taxa indicator species to verify genuine recovery and prevent monoculture greenwashing (Wauchope et al. 2024).
