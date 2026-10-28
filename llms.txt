@@ -22,12 +22,16 @@
   - Primary Literature: Heywood 1995 · Walpole & Leader-Williams 2002 · Veríssimo et al. 2011
 - **Umbrella species (伞护种)**: A species whose conservation confers protection to a large number of naturally co-occurring species across its required habitat area. / 保护它所需的生境面积与生境结构，就能顺带庇护许多同域自然共存物种的物种。
   - Chinese URL: https://juanli.me/seeing-ecology/umbrella/zh/
-  - English URL: https://juanli.me/seeing-ecology/umbrella/zh/
+  - English URL: https://juanli.me/seeing-ecology/umbrella/en/
   - Primary Literature: Wilcox 1984 · Fleishman et al. 2000 · Roberge & Angelstam 2004
 - **Keystone species (关键种)**: A species whose impact on its community or ecosystem is large, and disproportionately large relative to its abundance. / 对群落或生态系统的影响很大，且相对于其自身丰度而言不成比例地大的物种。
   - Chinese URL: https://juanli.me/seeing-ecology/keystone/zh/
-  - English URL: https://juanli.me/seeing-ecology/keystone/zh/
+  - English URL: https://juanli.me/seeing-ecology/keystone/en/
   - Primary Literature: Paine 1966, 1969 · Power et al. 1996 · Estes et al. 2011
+- **Biodiversity credits (生物多样性信用)**: A measurable, independently verified, tradable unit of durable and additional net positive biodiversity gain that funds conservation or restoration rather than offsetting damage. / 代表经科学测量、独立第三方核证且具持久性与额外性的生物多样性净增益的可交易单位，用于资助正向保护与恢复，而非抵消异地破坏。
+  - Chinese URL: https://juanli.me/seeing-ecology/biodiversity-credits/zh/
+  - English URL: https://juanli.me/seeing-ecology/biodiversity-credits/en/
+  - Primary Literature: KMGBF 2022 · 彭杨靖等 2024 · Wauchope et al. 2024 · Wunder et al. 2025 · 彭杨靖, 彭奎等 2026
 
 ## Upcoming Concept Nodes in the Graph
 - **Indicator species (指示种)**: A species whose presence, abundance, or physiological state reflects environmental conditions, disturbance, or community richness. (Landres et al. 1988 · Caro & O'Doherty 1999)

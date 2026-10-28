@@ -34,8 +34,9 @@
 | 概念（中文 / EN） | 核心判据 | 经典文献锚点 | 在线交互图解 |
 | :--- | :--- | :--- | :--- |
 | **旗舰种**<br>*Flagship species* | 凭契合目标受众的特征被选作保护营销重心，用来凝聚关注、共识与资金支持的物种。 | Heywood (1995) · Walpole & Leader-Williams (2002) · Veríssimo et al. (2011) · McGowan et al. (2020) | [中文](https://juanli.me/seeing-ecology/flagship/zh/) · [English](https://juanli.me/seeing-ecology/flagship/en/) |
-| **伞护种**<br>*Umbrella species* | 保护它所需的生境面积与生境结构，就能顺带庇护许多同域自然共存物种（且显著高于等面积随机选址基线）的物种。 | Wilcox (1984) · Fleishman et al. (2000) · Andelman & Fagan (2000) · Roberge & Angelstam (2004) | [中文](https://juanli.me/seeing-ecology/umbrella/zh/) |
-| **关键种**<br>*Keystone species* | 对群落或生态系统的影响很大，且相对于其自身丰度而言不成比例地大的物种。 | Paine (1966, 1969, 1980) · Power et al. (1996) · Libralato et al. (2006) · Estes et al. (2011) | [中文](https://juanli.me/seeing-ecology/keystone/zh/) |
+| **伞护种**<br>*Umbrella species* | 保护它所需的生境面积与生境结构，就能顺带庇护许多同域自然共存物种（且显著高于等面积随机选址基线）的物种。 | Wilcox (1984) · Fleishman et al. (2000) · Andelman & Fagan (2000) · Roberge & Angelstam (2004) | [中文](https://juanli.me/seeing-ecology/umbrella/zh/) · [English](https://juanli.me/seeing-ecology/umbrella/en/) |
+| **关键种**<br>*Keystone species* | 对群落或生态系统的影响很大，且相对于其自身丰度而言不成比例地大的物种。 | Paine (1966, 1969, 1980) · Power et al. (1996) · Libralato et al. (2006) · Estes et al. (2011) | [中文](https://juanli.me/seeing-ecology/keystone/zh/) · [English](https://juanli.me/seeing-ecology/keystone/en/) |
+| **生物多样性信用**<br>*Biodiversity credits* | 代表经科学测量、独立第三方核证且具额外性与持久性的生物多样性净增益的可交易单位，用于资助正向保护与生态恢复，而非抵消异地破坏。 | KMGBF (2022) · 彭杨靖等 (2024) · Wauchope et al. (2024) · Wunder et al. (2025) · 彭杨靖, 彭奎等 (2026) | [中文](https://juanli.me/seeing-ecology/biodiversity-credits/zh/) · [English](https://juanli.me/seeing-ecology/biodiversity-credits/en/) |
 | **指示种**<br>*Indicator species*（待出） | 其存在、丰度或生理状态可反映特定环境条件、人为干扰程度或群落物种丰富度的物种。 | Landres et al. (1988) · Caro & O'Doherty (1999) | *制作中* |
 | **集合种群与源-汇动态**<br>*Metapopulation & source–sink*（待出） | 由空间离散但借扩散相连的局部种群组成的系统，其长期存续取决于局部绝灭与再定殖的动态平衡。 | Levins (1969) · Pulliam (1988) · Hanski (1998) | *制作中* |
 | **营养级联**<br>*Trophic cascade*（待出） | 捕食者通过抑制食草动物丰度或改变其行为，跨营养级间接促进初级生产者的链式效应。 | Paine (1980) · Carpenter et al. (1985) · Ripple et al. (2016) | *制作中* |

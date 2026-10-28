@@ -24,6 +24,13 @@
       "url_zh": "https://juanli.me/seeing-ecology/keystone/zh/"
     },
     {
+      "id": "biodiversity-credits",
+      "title_zh": "生物多样性信用",
+      "title_en": "Biodiversity credits",
+      "status": "published",
+      "url_zh": "https://juanli.me/seeing-ecology/biodiversity-credits/zh/"
+    },
+    {
       "id": "indicator",
       "title_zh": "指示种",
       "title_en": "Indicator species",
@@ -135,12 +142,57 @@
       }
     },
     {
+      "source": "biodiversity-credits",
+      "target": "flagship",
+      "type": "extends",
+      "context": {
+        "zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭杨靖, 彭奎等 2026）。",
+        "en": "Voluntary buyer demand and price premiums are often driven by flagship charisma, though verification requires multi-taxa evidence (Peng et al. 2026)."
+      }
+    },
+    {
+      "source": "biodiversity-credits",
+      "target": "umbrella",
+      "type": "prereq",
+      "context": {
+        "zh": "多项信用规程（如 Savimbo 美洲豹信用与 ERA 伞护种规程）以伞护种家域划定项目空间边界，包络同域群落净增益（ERA 2025）。",
+        "en": "Crediting protocols (e.g., Savimbo jaguar credits, ERA protocol) use umbrella home ranges to bound project area and co-occurring gains (ERA 2025)."
+      }
+    },
+    {
+      "source": "biodiversity-credits",
+      "target": "keystone",
+      "type": "contrasts",
+      "context": {
+        "zh": "关键种缺失引发的营养级联与食物网退化需纳入一篮子多维指标核证，不能用单一树种造林替代（Wauchope et al. 2024）。",
+        "en": "Trophic cascades and food-web functions driven by keystone species must be captured in multi-metric baskets rather than monoculture planting (Wauchope et al. 2024)."
+      }
+    },
+    {
+      "source": "biodiversity-credits",
+      "target": "indicator",
+      "type": "prereq",
+      "context": {
+        "zh": "“一篮子多维指标”依赖对生境恢复或污染削减敏感的多类群指示种核证真实净增益，防范单一种树或放生漂绿（Wauchope et al. 2024）。",
+        "en": "Basket-of-metrics accounting relies on multi-taxa indicator species to verify genuine recovery and prevent monoculture greenwashing (Wauchope et al. 2024)."
+      }
+    },
+    {
       "source": "indicator",
       "target": "flagship",
       "type": "contrasts",
       "context": {
         "zh": "与旗舰种、伞护种并列为三类经典代理物种（Caro & O'Doherty 1999）。",
         "en": "One of the three classic surrogate species classes alongside flagship and umbrella species (Caro & O'Doherty 1999)."
+      }
+    },
+    {
+      "source": "indicator",
+      "target": "biodiversity-credits",
+      "type": "extends",
+      "context": {
+        "zh": "多类群指示种组合构成生物多样性信用“一篮子指标”的核证底座（Wauchope et al. 2024）。",
+        "en": "Multi-taxa indicator baskets form the verification backbone of biodiversity credits (Wauchope et al. 2024)."
       }
     },
     {

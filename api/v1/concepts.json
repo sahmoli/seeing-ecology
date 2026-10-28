@@ -70,6 +70,13 @@
           "context_en": "An empirical ecological property; many keystones (sea stars, plateau pikas) lack popular charisma."
         },
         {
+          "source": "biodiversity-credits",
+          "source_title_zh": "生物多样性信用",
+          "source_title_en": "Biodiversity credits",
+          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭杨靖, 彭奎等 2026）。",
+          "context_en": "Voluntary buyer demand and price premiums are often driven by flagship charisma, though verification requires multi-taxa evidence (Peng et al. 2026)."
+        },
+        {
           "source": "indicator",
           "source_title_zh": "指示种",
           "source_title_en": "Indicator species",
@@ -96,7 +103,7 @@
       ],
       "urls": {
         "zh": "https://juanli.me/seeing-ecology/umbrella/zh/",
-        "en": "https://juanli.me/seeing-ecology/umbrella/zh/"
+        "en": "https://juanli.me/seeing-ecology/umbrella/en/"
       },
       "connected": [
         {
@@ -137,6 +144,13 @@
           "context_en": "Defined by interaction strength (e.g., Pisaster sea star), not by a large home range (Power et al. 1996)."
         },
         {
+          "source": "biodiversity-credits",
+          "source_title_zh": "生物多样性信用",
+          "source_title_en": "Biodiversity credits",
+          "context_zh": "多项信用规程（如 Savimbo 美洲豹信用与 ERA 伞护种规程）以伞护种家域划定项目空间边界，包络同域群落净增益（ERA 2025）。",
+          "context_en": "Crediting protocols (e.g., Savimbo jaguar credits, ERA protocol) use umbrella home ranges to bound project area and co-occurring gains (ERA 2025)."
+        },
+        {
           "source": "metapopulation",
           "source_title_zh": "集合种群与源-汇动态",
           "source_title_en": "Metapopulation & source–sink",
@@ -163,7 +177,7 @@
       ],
       "urls": {
         "zh": "https://juanli.me/seeing-ecology/keystone/zh/",
-        "en": "https://juanli.me/seeing-ecology/keystone/zh/"
+        "en": "https://juanli.me/seeing-ecology/keystone/en/"
       },
       "connected": [
         {
@@ -204,11 +218,80 @@
           "context_en": "Focuses on spatial habitat coverage rather than disproportionate per-capita community impact (Simberloff 1998)."
         },
         {
+          "source": "biodiversity-credits",
+          "source_title_zh": "生物多样性信用",
+          "source_title_en": "Biodiversity credits",
+          "context_zh": "关键种缺失引发的营养级联与食物网退化需纳入一篮子多维指标核证，不能用单一树种造林替代（Wauchope et al. 2024）。",
+          "context_en": "Trophic cascades and food-web functions driven by keystone species must be captured in multi-metric baskets rather than monoculture planting (Wauchope et al. 2024)."
+        },
+        {
           "source": "trophic-cascade",
           "source_title_zh": "营养级联",
           "source_title_en": "Trophic cascade",
           "context_zh": "关键捕食者移除实验是揭示营养级联的经典起点。",
           "context_en": "Keystone predator removal experiments are the classic empirical origin of trophic cascades."
+        }
+      ]
+    },
+    {
+      "slug": "biodiversity-credits",
+      "status": "published",
+      "title": {
+        "zh": "生物多样性信用",
+        "en": "Biodiversity credits"
+      },
+      "definition": {
+        "zh": "代表经科学测量、独立第三方核证且具持久性与额外性的生物多样性净增益的可交易单位，用于资助正向保护与恢复，而非抵消异地破坏。",
+        "en": "A measurable, independently verified, tradable unit of durable and additional net positive biodiversity gain that funds conservation or restoration rather than offsetting damage."
+      },
+      "citations": [
+        "KMGBF 2022",
+        "彭杨靖等 2024",
+        "Wauchope et al. 2024",
+        "Wunder et al. 2025",
+        "彭杨靖, 彭奎等 2026"
+      ],
+      "urls": {
+        "zh": "https://juanli.me/seeing-ecology/biodiversity-credits/zh/",
+        "en": "https://juanli.me/seeing-ecology/biodiversity-credits/en/"
+      },
+      "connected": [
+        {
+          "target": "flagship",
+          "target_title_zh": "旗舰种",
+          "target_title_en": "Flagship species",
+          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭杨靖, 彭奎等 2026）。",
+          "context_en": "Voluntary buyer demand and price premiums are often driven by flagship charisma, though verification requires multi-taxa evidence (Peng et al. 2026)."
+        },
+        {
+          "target": "umbrella",
+          "target_title_zh": "伞护种",
+          "target_title_en": "Umbrella species",
+          "context_zh": "多项信用规程（如 Savimbo 美洲豹信用与 ERA 伞护种规程）以伞护种家域划定项目空间边界，包络同域群落净增益（ERA 2025）。",
+          "context_en": "Crediting protocols (e.g., Savimbo jaguar credits, ERA protocol) use umbrella home ranges to bound project area and co-occurring gains (ERA 2025)."
+        },
+        {
+          "target": "keystone",
+          "target_title_zh": "关键种",
+          "target_title_en": "Keystone species",
+          "context_zh": "关键种缺失引发的营养级联与食物网退化需纳入一篮子多维指标核证，不能用单一树种造林替代（Wauchope et al. 2024）。",
+          "context_en": "Trophic cascades and food-web functions driven by keystone species must be captured in multi-metric baskets rather than monoculture planting (Wauchope et al. 2024)."
+        },
+        {
+          "target": "indicator",
+          "target_title_zh": "指示种",
+          "target_title_en": "Indicator species",
+          "context_zh": "“一篮子多维指标”依赖对生境恢复或污染削减敏感的多类群指示种核证真实净增益，防范单一种树或放生漂绿（Wauchope et al. 2024）。",
+          "context_en": "Basket-of-metrics accounting relies on multi-taxa indicator species to verify genuine recovery and prevent monoculture greenwashing (Wauchope et al. 2024)."
+        }
+      ],
+      "referenced_by": [
+        {
+          "source": "indicator",
+          "source_title_zh": "指示种",
+          "source_title_en": "Indicator species",
+          "context_zh": "多类群指示种组合构成生物多样性信用“一篮子指标”的核证底座（Wauchope et al. 2024）。",
+          "context_en": "Multi-taxa indicator baskets form the verification backbone of biodiversity credits (Wauchope et al. 2024)."
         }
       ]
     },
@@ -238,6 +321,13 @@
           "target_title_en": "Flagship species",
           "context_zh": "与旗舰种、伞护种并列为三类经典代理物种（Caro & O'Doherty 1999）。",
           "context_en": "One of the three classic surrogate species classes alongside flagship and umbrella species (Caro & O'Doherty 1999)."
+        },
+        {
+          "target": "biodiversity-credits",
+          "target_title_zh": "生物多样性信用",
+          "target_title_en": "Biodiversity credits",
+          "context_zh": "多类群指示种组合构成生物多样性信用“一篮子指标”的核证底座（Wauchope et al. 2024）。",
+          "context_en": "Multi-taxa indicator baskets form the verification backbone of biodiversity credits (Wauchope et al. 2024)."
         }
       ],
       "referenced_by": [
@@ -247,6 +337,13 @@
           "source_title_en": "Flagship species",
           "context_zh": "旗舰种服务于公众传播与筹款，而非像指示种那样用于监测环境变化或生物多样性状态。",
           "context_en": "Serves public outreach and fundraising rather than monitoring environmental or biodiversity state."
+        },
+        {
+          "source": "biodiversity-credits",
+          "source_title_zh": "生物多样性信用",
+          "source_title_en": "Biodiversity credits",
+          "context_zh": "“一篮子多维指标”依赖对生境恢复或污染削减敏感的多类群指示种核证真实净增益，防范单一种树或放生漂绿（Wauchope et al. 2024）。",
+          "context_en": "Basket-of-metrics accounting relies on multi-taxa indicator species to verify genuine recovery and prevent monoculture greenwashing (Wauchope et al. 2024)."
         }
       ]
     },

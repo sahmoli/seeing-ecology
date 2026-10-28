@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.6",
   "updated": "2026-10-28",
   "title": "Juan Li · Seeing Ecology",
   "notes": [
@@ -9,7 +9,7 @@
       "title_en": "Flagship species",
       "status": "published",
       "url_zh": "./flagship/zh/index.html",
-      "url_en": "../flagship-species/en/index.html",
+      "url_en": "../flagship/en/index.html",
       "essence_zh": "凭契合目标受众的特征被选作保护营销重心，用来凝聚关注、共识与资金支持的物种。",
       "essence_en": "A species chosen as the focus of a conservation marketing campaign based on traits that appeal to a target audience, mobilizing attention and funding.",
       "cites": "Heywood 1995 · Walpole & Leader-Williams 2002 · Veríssimo et al. 2011",
@@ -43,7 +43,7 @@
       "title_en": "Umbrella species",
       "status": "published",
       "url_zh": "./umbrella/zh/index.html",
-      "url_en": "../umbrella/zh/index.html",
+      "url_en": "../umbrella/en/index.html",
       "essence_zh": "保护它所需的生境面积与生境结构，就能顺带庇护许多同域自然共存物种的物种。",
       "essence_en": "A species whose conservation confers protection to a large number of naturally co-occurring species across its required habitat area.",
       "cites": "Wilcox 1984 · Fleishman et al. 2000 · Roberge & Angelstam 2004",
@@ -77,7 +77,7 @@
       "title_en": "Keystone species",
       "status": "published",
       "url_zh": "./keystone/zh/index.html",
-      "url_en": "../keystone/zh/index.html",
+      "url_en": "../keystone/en/index.html",
       "essence_zh": "对群落或生态系统的影响很大，且相对于其自身丰度而言不成比例地大的物种。",
       "essence_en": "A species whose impact on its community or ecosystem is large, and disproportionately large relative to its abundance.",
       "cites": "Paine 1966, 1969 · Power et al. 1996 · Estes et al. 2011",
@@ -106,6 +106,47 @@
       ]
     },
     {
+      "slug": "biodiversity-credits",
+      "title_zh": "生物多样性信用",
+      "title_en": "Biodiversity credits",
+      "status": "published",
+      "url_zh": "./biodiversity-credits/zh/index.html",
+      "url_en": "../biodiversity-credits/en/index.html",
+      "essence_zh": "代表经科学测量、独立第三方核证且具持久性与额外性的生物多样性净增益的可交易单位，用于资助正向保护与恢复，而非抵消异地破坏。",
+      "essence_en": "A measurable, independently verified, tradable unit of durable and additional net positive biodiversity gain that funds conservation or restoration rather than offsetting damage.",
+      "cites": "KMGBF 2022 · 彭杨靖等 2024 · Wauchope et al. 2024 · Wunder et al. 2025 · 彭杨靖, 彭奎等 2026",
+      "links": [
+        {
+          "target": "flagship",
+          "type": "extends",
+          "label_zh": "延伸",
+          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭杨靖, 彭奎等 2026）。",
+          "context_en": "Voluntary buyer demand and price premiums are often driven by flagship charisma, though verification requires multi-taxa evidence (Peng et al. 2026)."
+        },
+        {
+          "target": "umbrella",
+          "type": "prereq",
+          "label_zh": "先读",
+          "context_zh": "多项信用规程（如 Savimbo 美洲豹信用与 ERA 伞护种规程）以伞护种家域划定项目空间边界，包络同域群落净增益（ERA 2025）。",
+          "context_en": "Crediting protocols (e.g., Savimbo jaguar credits, ERA protocol) use umbrella home ranges to bound project area and co-occurring gains (ERA 2025)."
+        },
+        {
+          "target": "keystone",
+          "type": "contrasts",
+          "label_zh": "对照",
+          "context_zh": "关键种缺失引发的营养级联与食物网退化需纳入一篮子多维指标核证，不能用单一树种造林替代（Wauchope et al. 2024）。",
+          "context_en": "Trophic cascades and food-web functions driven by keystone species must be captured in multi-metric baskets rather than monoculture planting (Wauchope et al. 2024)."
+        },
+        {
+          "target": "indicator",
+          "type": "prereq",
+          "label_zh": "先读",
+          "context_zh": "“一篮子多维指标”依赖对生境恢复或污染削减敏感的多类群指示种核证真实净增益，防范单一种树或放生漂绿（Wauchope et al. 2024）。",
+          "context_en": "Basket-of-metrics accounting relies on multi-taxa indicator species to verify genuine recovery and prevent monoculture greenwashing (Wauchope et al. 2024)."
+        }
+      ]
+    },
+    {
       "slug": "indicator",
       "title_zh": "指示种",
       "title_en": "Indicator species",
@@ -122,6 +163,13 @@
           "label_zh": "对照",
           "context_zh": "与旗舰种、伞护种并列为三类经典代理物种（Caro & O'Doherty 1999）。",
           "context_en": "One of the three classic surrogate species classes alongside flagship and umbrella species (Caro & O'Doherty 1999)."
+        },
+        {
+          "target": "biodiversity-credits",
+          "type": "extends",
+          "label_zh": "延伸",
+          "context_zh": "多类群指示种组合构成生物多样性信用“一篮子指标”的核证底座（Wauchope et al. 2024）。",
+          "context_en": "Multi-taxa indicator baskets form the verification backbone of biodiversity credits (Wauchope et al. 2024)."
         }
       ]
     },
