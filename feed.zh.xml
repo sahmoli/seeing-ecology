@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Juan Li · Seeing Ecology 看见生态</title>
+    <link>https://juanli.me/seeing-ecology/</link>
+    <description>用视觉图解和互动示例理解生态学与保护生物学的核心概念</description>
+    <language>zh-cn</language>
+    <item>
+      <title>生境破碎化 (Habitat fragmentation)</title>
+      <link>https://juanli.me/seeing-ecology/habitat-fragmentation/zh/</link>
+      <guid isPermaLink="true">https://juanli.me/seeing-ecology/habitat-fragmentation/zh/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description>景观中连续生境在面积减少的同时被分割为更小、更孤立的斑块；机制分析须区分生境丧失（总面积 H 减少）与控制 H 后的纯粹破碎化。 — Fahrig 2003, 2013, 2017 · Laurance et al. 2011 · Haddad et al. 2015 · Fletcher et al. 2018 · Damschen et al. 2019 · Gonçalves-Souza et al. 2025</description>
+    </item>
+    <item>
+      <title>关键种 (Keystone species)</title>
+      <link>https://juanli.me/seeing-ecology/keystone/zh/</link>
+      <guid isPermaLink="true">https://juanli.me/seeing-ecology/keystone/zh/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description>对群落或生态系统的影响很大，且相对于其丰度而言不成比例地大的物种。 — Paine 1966, 1969 · Power et al. 1996 · Estes et al. 2011</description>
+    </item>
+    <item>
+      <title>伞护种 (Umbrella species)</title>
+      <link>https://juanli.me/seeing-ecology/umbrella/zh/</link>
+      <guid isPermaLink="true">https://juanli.me/seeing-ecology/umbrella/zh/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description>预期通过保护它，也能保护许多同域自然共存物种的候选物种；具体伞护效果须经空间零模型与管理净益两层实证检验。 — Wilcox 1984 · Fleishman et al. 2000 · Roberge &amp; Angelstam 2004 · Carlisle et al. 2018</description>
+    </item>
+    <item>
+      <title>旗舰种 (Flagship species)</title>
+      <link>https://juanli.me/seeing-ecology/flagship/zh/</link>
+      <guid isPermaLink="true">https://juanli.me/seeing-ecology/flagship/zh/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description>凭契合目标受众的特征被选作保护营销重心，用来凝聚关注、共识与资金支持的物种。 — Heywood 1995 · Walpole &amp; Leader-Williams 2002 · Veríssimo et al. 2011</description>
+    </item>
+    <item>
+      <title>生物多样性信用 (Biodiversity credits)</title>
+      <link>https://juanli.me/seeing-ecology/biodiversity-credits/zh/</link>
+      <guid isPermaLink="true">https://juanli.me/seeing-ecology/biodiversity-credits/zh/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description>代表经测量、有证据支持、具有额外性与持久性的正向生物多样性成果的凭证。不同框架对其使用方式有不同规定；本页重点讨论用于自然贡献的非抵消型自愿信用。 — KMGBF 2022 · 彭昀月等 2024 · Wauchope et al. 2024 · Wunder et al. 2025 · 彭昀月, 彭奎等 2026</description>
+    </item>
+  </channel>
+</rss>

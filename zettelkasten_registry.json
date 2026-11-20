@@ -1,8 +1,42 @@
 {
-  "version": "1.6",
-  "updated": "2026-10-28",
+  "version": "2.1",
+  "updated": "2026-11-20",
   "title": "Juan Li · Seeing Ecology",
   "notes": [
+    {
+      "slug": "habitat-fragmentation",
+      "title_zh": "生境破碎化",
+      "title_en": "Habitat fragmentation",
+      "status": "published",
+      "url_zh": "./habitat-fragmentation/zh/index.html",
+      "url_en": "../habitat-fragmentation/en/index.html",
+      "essence_zh": "连续生境在景观尺度断裂为面积更小、彼此隔离斑块的空间构型过程；须严格区分锁定总面积 H 后的纯粹空间切分与生境总量丧失。",
+      "essence_en": "Landscape-scale breaking apart of continuous habitat into smaller, isolated patches, strictly separating spatial configuration per se (at fixed habitat amount H) from total habitat loss.",
+      "cites": "Wilcove et al. 1986 · Fahrig 2003, 2017 · Haddad et al. 2015 · Fletcher et al. 2018 · Gonçalves-Souza et al. 2025",
+      "links": [
+        {
+          "target": "umbrella",
+          "type": "constrains",
+          "label_zh": "制约",
+          "context_zh": "大面积伞护种保护区划定受制于生境总量丧失（H）与控制 H 后的空间构型。",
+          "context_en": "Umbrella reserve sizing is constrained by habitat loss (H) and spatial configuration per se."
+        },
+        {
+          "target": "keystone",
+          "type": "affects",
+          "label_zh": "波及",
+          "context_zh": "斑块缩小与边缘暴露可引发关键捕食者或工程师的功能性丧失。",
+          "context_en": "Small, edge-dominated fragments can trigger functional loss of keystone predators or engineers."
+        },
+        {
+          "target": "metapopulation",
+          "type": "prereq",
+          "label_zh": "先读",
+          "context_zh": "斑块化景观中的物种存续取决于局部灭绝—再定殖与源—汇动态。",
+          "context_en": "Persistence in fragmented landscapes depends on extinction–recolonization and source–sink dynamics."
+        }
+      ]
+    },
     {
       "slug": "flagship",
       "title_zh": "旗舰种",
@@ -44,8 +78,8 @@
       "status": "published",
       "url_zh": "./umbrella/zh/index.html",
       "url_en": "../umbrella/en/index.html",
-      "essence_zh": "保护它所需的生境面积与生境结构，就能顺带庇护许多同域自然共存物种的物种。",
-      "essence_en": "A species whose conservation confers protection to a large number of naturally co-occurring species across its required habitat area.",
+      "essence_zh": "预期通过保护它，也能保护许多同域自然共存物种的候选物种；具体伞护效果仍需实证检验。",
+      "essence_en": "A candidate species whose conservation is expected to confer protection to a large number of naturally co-occurring species; actual umbrella effectiveness requires empirical validation.",
       "cites": "Wilcox 1984 · Fleishman et al. 2000 · Roberge & Angelstam 2004",
       "links": [
         {
@@ -112,15 +146,15 @@
       "status": "published",
       "url_zh": "./biodiversity-credits/zh/index.html",
       "url_en": "../biodiversity-credits/en/index.html",
-      "essence_zh": "代表经科学测量、独立第三方核证且具持久性与额外性的生物多样性净增益的可交易单位，用于资助正向保护与恢复，而非抵消异地破坏。",
-      "essence_en": "A measurable, independently verified, tradable unit of durable and additional net positive biodiversity gain that funds conservation or restoration rather than offsetting damage.",
-      "cites": "Maron et al. 2012 · Bull & Strange 2018 · KMGBF 2022 · 彭杨靖等 2024 · Wauchope et al. 2024 · Wunder et al. 2025 · 彭杨靖, 彭奎等 2026",
+      "essence_zh": "代表经测量、有证据支持、具有额外性与持久性的正向生物多样性成果的凭证。不同框架对其使用方式有不同规定；本页重点讨论用于自然贡献的非抵消型自愿信用。",
+      "essence_en": "A certificate representing a measured, evidence-based positive biodiversity outcome that is additional and durable. Frameworks differ on how credits may be used; this page focuses on voluntary, non-offset credits used for nature contributions.",
+      "cites": "Maron et al. 2012 · Bull & Strange 2018 · KMGBF 2022 · 彭昀月等 2024 · Wauchope et al. 2024 · Wunder et al. 2025 · 彭昀月, 彭奎等 2026",
       "links": [
         {
           "target": "flagship",
           "type": "extends",
           "label_zh": "延伸",
-          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭杨靖, 彭奎等 2026）。",
+          "context_zh": "自愿市场买方对信用的认购意愿与溢价常受雪豹、眼镜熊等旗舰种魅力驱动，但核证本身不能仅凭旗舰种故事（彭昀月, 彭奎等 2026）。",
           "context_en": "Voluntary buyer demand and price premiums are often driven by flagship charisma, though verification requires multi-taxa evidence (Peng et al. 2026)."
         },
         {

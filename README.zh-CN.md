@@ -1,10 +1,10 @@
 # Juan Li · Seeing Ecology（看见生态）
 
-**[English](README.md) | [简体中文](README.zh-CN.md)** · **[在线主页（中文）](https://juanli.me/seeing-ecology/) · [English Portal](https://juanli.me/seeing-ecology/en/) · [Agent 接入页](https://juanli.me/seeing-ecology/agent/)**
+**[English](README.md) | [简体中文](README.zh-CN.md)** · **[在线主页（中文）](https://juanli.me/seeing-ecology/) · [English Portal](https://juanli.me/seeing-ecology/en/)**
 
 [![Live Site](https://img.shields.io/badge/在线访问-juanli.me%2Fseeing--ecology-94501F)](https://juanli.me/seeing-ecology/)
 [![Languages](https://img.shields.io/badge/多语言-简体中文_%7C_English-2F6F6A)](https://juanli.me/seeing-ecology/)
-[![Agent Ready](https://img.shields.io/badge/Agent_接口-SKILL.md_·_LLMs.txt_·_JSON-6B5B4F)](https://juanli.me/seeing-ecology/agent/)
+[![Machine Readable](https://img.shields.io/badge/机器可读-LLMs.txt_·_JSON-6B5B4F)](https://juanli.me/seeing-ecology/llms.txt)
 [![License: CC BY 4.0 / MIT](https://img.shields.io/badge/开源许可-CC_BY_4.0_%2F_MIT-3A2E27)](LICENSE)
 
 > **看见生态（Seeing Ecology）** 是一套面向生态学与保护生物学经典概念、原理与模型的**中英双语极简视觉与交互图解**——先看见现象与结构，再回到原始文献的定义、边界、争议与度量。
@@ -33,10 +33,11 @@
 
 | 概念（中文 / EN） | 核心判据 | 经典文献锚点 | 在线交互图解 |
 | :--- | :--- | :--- | :--- |
+| **生境破碎化**<br>*Habitat fragmentation* | 连续生境在景观尺度断裂为面积更小、彼此隔离斑块的空间构型过程；须严格区分锁定总面积 *H* 后的纯粹空间切分与生境总量丧失。 | Wilcove et al. (1986) · Fahrig (2003, 2017) · Haddad et al. (2015) · Fletcher et al. (2018) · Gonçalves-Souza et al. (2025) | [中文](https://juanli.me/seeing-ecology/habitat-fragmentation/zh/) · [English](https://juanli.me/seeing-ecology/habitat-fragmentation/en/) |
 | **旗舰种**<br>*Flagship species* | 凭契合目标受众的特征被选作保护营销重心，用来凝聚关注、共识与资金支持的物种。 | Heywood (1995) · Walpole & Leader-Williams (2002) · Veríssimo et al. (2011) · McGowan et al. (2020) | [中文](https://juanli.me/seeing-ecology/flagship/zh/) · [English](https://juanli.me/seeing-ecology/flagship/en/) |
-| **伞护种**<br>*Umbrella species* | 保护它所需的生境面积与生境结构，就能顺带庇护许多同域自然共存物种（且显著高于等面积随机选址基线）的物种。 | Wilcox (1984) · Fleishman et al. (2000) · Andelman & Fagan (2000) · Roberge & Angelstam (2004) | [中文](https://juanli.me/seeing-ecology/umbrella/zh/) · [English](https://juanli.me/seeing-ecology/umbrella/en/) |
+| **伞护种**<br>*Umbrella species* | 预期通过保护它，也能保护许多同域自然共存物种的候选物种；具体伞护效果仍需实证检验。 | Wilcox (1984) · Fleishman et al. (2000) · Andelman & Fagan (2000) · Roberge & Angelstam (2004) | [中文](https://juanli.me/seeing-ecology/umbrella/zh/) · [English](https://juanli.me/seeing-ecology/umbrella/en/) |
 | **关键种**<br>*Keystone species* | 对群落或生态系统的影响很大，且相对于其自身丰度而言不成比例地大的物种。 | Paine (1966, 1969, 1980) · Power et al. (1996) · Libralato et al. (2006) · Estes et al. (2011) | [中文](https://juanli.me/seeing-ecology/keystone/zh/) · [English](https://juanli.me/seeing-ecology/keystone/en/) |
-| **生物多样性信用**<br>*Biodiversity credits* | 代表经科学测量、独立第三方核证且具额外性与持久性的生物多样性净增益的可交易单位，用于资助正向保护与生态恢复，而非抵消异地破坏。 | KMGBF (2022) · 彭杨靖等 (2024) · Wauchope et al. (2024) · Wunder et al. (2025) · 彭杨靖, 彭奎等 (2026) | [中文](https://juanli.me/seeing-ecology/biodiversity-credits/zh/) · [English](https://juanli.me/seeing-ecology/biodiversity-credits/en/) |
+| **生物多样性信用**<br>*Biodiversity credits* | 代表经科学测量、独立第三方核证且具额外性与持久性的生物多样性净增益的可交易单位，用于资助正向保护与生态恢复，而非抵消异地破坏。 | KMGBF (2022) · 彭昀月等 (2024) · Wauchope et al. (2024) · Wunder et al. (2025) · 彭昀月, 彭奎等 (2026) | [中文](https://juanli.me/seeing-ecology/biodiversity-credits/zh/) · [English](https://juanli.me/seeing-ecology/biodiversity-credits/en/) |
 | **指示种**<br>*Indicator species*（待出） | 其存在、丰度或生理状态可反映特定环境条件、人为干扰程度或群落物种丰富度的物种。 | Landres et al. (1988) · Caro & O'Doherty (1999) | *制作中* |
 | **集合种群与源-汇动态**<br>*Metapopulation & source–sink*（待出） | 由空间离散但借扩散相连的局部种群组成的系统，其长期存续取决于局部绝灭与再定殖的动态平衡。 | Levins (1969) · Pulliam (1988) · Hanski (1998) | *制作中* |
 | **营养级联**<br>*Trophic cascade*（待出） | 捕食者通过抑制食草动物丰度或改变其行为，跨营养级间接促进初级生产者的链式效应。 | Paine (1980) · Carpenter et al. (1985) · Ripple et al. (2016) | *制作中* |
@@ -44,22 +45,10 @@
 
 ---
 
-## 3. 面向 AI Agent 与开发者接入（`SKILL.md` · `LLMs.txt` · `JSON v1`）
+## 3. 公开机器可读接口（`LLMs.txt` · `JSON v1` · RSS）
 
-Seeing Ecology 提供开箱即用的只读 Agent 接口（详见 [Agent 接入页](https://juanli.me/seeing-ecology/agent/)）：
+Seeing Ecology 直接通过网站提供只读公开接口（无需额外安装静态 Agent Skill，也无需 API Key）：
 
-### 一键安装或读取 Agent Skill
-把下面这句话交给支持 Skills 或网页读取的 Agent（Claude Code、Cursor、Codex、Grok Bot 等）：
-
-> 请从 `https://github.com/sahmoli/seeing-ecology` 安装 Seeing Ecology Skill（或读取 `https://juanli.me/seeing-ecology/agent/SKILL.md`），按一手文献与概念图谱检索生态学与保护生物学核心概念。
-
-或者直接运行零依赖 Python 查询脚本：
-```bash
-python3 seeing-ecology/scripts/query_seeing_ecology.py --lang zh --q 旗舰种
-```
-
-### 公开机器可读接口（无需 API Key）
-- **Agent Skill 说明**：[`https://juanli.me/seeing-ecology/agent/SKILL.md`](https://juanli.me/seeing-ecology/agent/SKILL.md)
 - **`llms.txt`（精简 Markdown 索引）**：[`https://juanli.me/seeing-ecology/llms.txt`](https://juanli.me/seeing-ecology/llms.txt)
 - **`llms-full.txt`（完整概念图谱与双向关系索引）**：[`https://juanli.me/seeing-ecology/llms-full.txt`](https://juanli.me/seeing-ecology/llms-full.txt)
 - **双语概念目录 JSON（`v1`）**：[`https://juanli.me/seeing-ecology/api/v1/concepts.json`](https://juanli.me/seeing-ecology/api/v1/concepts.json)

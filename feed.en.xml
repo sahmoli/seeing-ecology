@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Juan Li · Seeing Ecology</title>
+    <link>https://juanli.me/seeing-ecology/en/</link>
+    <description>Visual and interactive explainers of core concepts in ecology and conservation biology</description>
+    <language>en</language>
+    <item>
+      <title>Habitat fragmentation (生境破碎化)</title>
+      <link>https://juanli.me/seeing-ecology/habitat-fragmentation/en/</link>
+      <guid isPermaLink="true">https://juanli.me/seeing-ecology/habitat-fragmentation/en/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description>The landscape-scale process involving both habitat loss (reduction in total area H) and habitat fragmentation per se (breaking apart of habitat while controlling for H). — Fahrig 2003, 2013, 2017 · Laurance et al. 2011 · Haddad et al. 2015 · Fletcher et al. 2018 · Damschen et al. 2019 · Gonçalves-Souza et al. 2025</description>
+    </item>
+    <item>
+      <title>Keystone species (关键种)</title>
+      <link>https://juanli.me/seeing-ecology/keystone/en/</link>
+      <guid isPermaLink="true">https://juanli.me/seeing-ecology/keystone/en/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description>A species whose impact on its community or ecosystem is large, and disproportionately large relative to its abundance. — Paine 1966, 1969 · Power et al. 1996 · Estes et al. 2011</description>
+    </item>
+    <item>
+      <title>Umbrella species (伞护种)</title>
+      <link>https://juanli.me/seeing-ecology/umbrella/en/</link>
+      <guid isPermaLink="true">https://juanli.me/seeing-ecology/umbrella/en/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description>A candidate species whose conservation is expected to confer protection to co-occurring species; actual effectiveness requires both spatial null-model and management-benefit validation. — Wilcox 1984 · Fleishman et al. 2000 · Roberge &amp; Angelstam 2004 · Carlisle et al. 2018</description>
+    </item>
+    <item>
+      <title>Flagship species (旗舰种)</title>
+      <link>https://juanli.me/seeing-ecology/flagship/en/</link>
+      <guid isPermaLink="true">https://juanli.me/seeing-ecology/flagship/en/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description>A species selected as the focus of a conservation marketing campaign based on traits that appeal to a target audience, used to rally awareness, support, and funding. — Heywood 1995 · Walpole &amp; Leader-Williams 2002 · Veríssimo et al. 2011</description>
+    </item>
+    <item>
+      <title>Biodiversity credits (生物多样性信用)</title>
+      <link>https://juanli.me/seeing-ecology/biodiversity-credits/en/</link>
+      <guid isPermaLink="true">https://juanli.me/seeing-ecology/biodiversity-credits/en/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description>A certificate representing a measured, evidence-based positive biodiversity outcome that is additional and durable. Frameworks differ on use; this note focuses on voluntary, non-offset credits for nature contributions. — KMGBF 2022 · 彭昀月等 2024 · Wauchope et al. 2024 · Wunder et al. 2025 · 彭昀月, 彭奎等 2026</description>
+    </item>
+  </channel>
+</rss>

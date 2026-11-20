@@ -1,10 +1,10 @@
 # Juan Li · Seeing Ecology (看见生态)
 
-**[English](README.md) | [简体中文](README.zh-CN.md)** · **[Live Portal (中文)](https://juanli.me/seeing-ecology/) · [Live Portal (EN)](https://juanli.me/seeing-ecology/en/) · [Agent Access](https://juanli.me/seeing-ecology/agent/)**
+**[English](README.md) | [简体中文](README.zh-CN.md)** · **[Live Portal (中文)](https://juanli.me/seeing-ecology/) · [Live Portal (EN)](https://juanli.me/seeing-ecology/en/)**
 
 [![Live Site](https://img.shields.io/badge/Live_Site-juanli.me%2Fseeing--ecology-94501F)](https://juanli.me/seeing-ecology/)
 [![Languages](https://img.shields.io/badge/Language-English_%7C_简体中文-2F6F6A)](https://juanli.me/seeing-ecology/en/)
-[![Agent Ready](https://img.shields.io/badge/Agent_Skill-LLMs.txt_%26_JSON_v1-6B5B4F)](https://juanli.me/seeing-ecology/agent/)
+[![Machine Readable](https://img.shields.io/badge/Machine_Readable-LLMs.txt_%26_JSON_v1-6B5B4F)](https://juanli.me/seeing-ecology/llms.txt)
 [![License: CC BY 4.0 / MIT](https://img.shields.io/badge/License-CC_BY_4.0_%2F_MIT-3A2E27)](LICENSE)
 
 > **Seeing Ecology (看见生态)** is a bilingual (English & Chinese) collection of visual, interactive explainers for timeless concepts, principles, and models in ecology and conservation biology — seeing the phenomenon and structure first, then returning to the verbatim definitions, boundary conditions, controversies, and metrics in primary literature.
@@ -33,10 +33,11 @@ Textbooks and encyclopedias often flatten ecological concepts into static defini
 
 | Concept (EN / 中文) | Core Criterion | Primary Literature Anchors | Interactive Explainers |
 | :--- | :--- | :--- | :--- |
+| **Habitat fragmentation**<br>生境破碎化 | Landscape-scale breaking apart of habitat into smaller, isolated patches, strictly separating spatial configuration *per se* (at fixed habitat amount *H*) from total habitat loss. | Wilcove et al. (1986) · Fahrig (2003, 2017) · Haddad et al. (2015) · Fletcher et al. (2018) · Gonçalves-Souza et al. (2025) | [English](https://juanli.me/seeing-ecology/habitat-fragmentation/en/) · [中文](https://juanli.me/seeing-ecology/habitat-fragmentation/zh/) |
 | **Flagship species**<br>旗舰种 | Chosen as the focus of a conservation marketing campaign based on traits appealing to a target audience to mobilize attention and funding. | Heywood (1995) · Walpole & Leader-Williams (2002) · Veríssimo et al. (2011) · McGowan et al. (2020) | [English](https://juanli.me/seeing-ecology/flagship/en/) · [中文](https://juanli.me/seeing-ecology/flagship/zh/) |
-| **Umbrella species**<br>伞护种 | Protecting its required habitat area and structure confers protection to a large number of naturally co-occurring species above an equal-area random baseline. | Wilcox (1984) · Fleishman et al. (2000) · Andelman & Fagan (2000) · Roberge & Angelstam (2004) | [English](https://juanli.me/seeing-ecology/umbrella/en/) · [中文](https://juanli.me/seeing-ecology/umbrella/zh/) |
+| **Umbrella species**<br>伞护种 | A candidate species whose conservation is expected to confer protection to a large number of naturally co-occurring species; actual umbrella effectiveness requires empirical validation. | Wilcox (1984) · Fleishman et al. (2000) · Andelman & Fagan (2000) · Roberge & Angelstam (2004) | [English](https://juanli.me/seeing-ecology/umbrella/en/) · [中文](https://juanli.me/seeing-ecology/umbrella/zh/) |
 | **Keystone species**<br>关键种 | Its impact on the community or ecosystem is large, and disproportionately large relative to its own abundance. | Paine (1966, 1969, 1980) · Power et al. (1996) · Libralato et al. (2006) · Estes et al. (2011) | [English](https://juanli.me/seeing-ecology/keystone/en/) · [中文](https://juanli.me/seeing-ecology/keystone/zh/) |
-| **Biodiversity credits**<br>生物多样性信用 | A measurable, independently verified, tradable unit of durable and additional net positive biodiversity gain that funds conservation or restoration rather than offsetting damage. | KMGBF (2022) · Peng et al. (2024, 2026) · Wauchope et al. (2024) · Wunder et al. (2025) | [English](https://juanli.me/seeing-ecology/biodiversity-credits/en/) · [中文](https://juanli.me/seeing-ecology/biodiversity-credits/zh/) |
+| **Biodiversity credits**<br>生物多样性信用 | A certificate representing a measured, evidence-based positive biodiversity outcome that is additional and durable. Frameworks differ on how credits may be used; this page focuses on voluntary, non-offset credits used for nature contributions. | KMGBF (2022) · Peng et al. (2024, 2026) · Wauchope et al. (2024) · Wunder et al. (2025) | [English](https://juanli.me/seeing-ecology/biodiversity-credits/en/) · [中文](https://juanli.me/seeing-ecology/biodiversity-credits/zh/) |
 | **Indicator species**<br>指示种 *(Upcoming)* | Its presence, abundance, or physiological state reflects environmental conditions, disturbance, or community richness. | Landres et al. (1988) · Caro & O'Doherty (1999) | *In preparation* |
 | **Metapopulation & source–sink**<br>集合种群与源-汇动态 *(Upcoming)* | Spatially discrete local populations connected by dispersal, persisting through the balance of extinction and recolonization. | Levins (1969) · Pulliam (1988) · Hanski (1998) | *In preparation* |
 | **Trophic cascade**<br>营养级联 *(Upcoming)* | Indirect top-down predator effects across two or more trophic links releasing primary producers. | Paine (1980) · Carpenter et al. (1985) · Ripple et al. (2016) | *In preparation* |
@@ -44,22 +45,10 @@ Textbooks and encyclopedias often flatten ecological concepts into static defini
 
 ---
 
-## 3. For AI Agents & Developers (`SKILL.md`, `LLMs.txt`, `JSON v1`)
+## 3. Public Machine-Readable Endpoints (`LLMs.txt` · `JSON v1` · RSS)
 
-Seeing Ecology provides first-class, read-only interfaces for AI coding and research agents ([Agent Access Portal](https://juanli.me/seeing-ecology/en/agent/)):
+Seeing Ecology exposes lightweight, read-only public endpoints directly from the website (no standalone Agent Skill required and no API key required):
 
-### Install or Read the Agent Skill
-Give this prompt to any Skills-compatible agent (Claude Code, Cursor, Codex, Grok Bot, OpenCode):
-
-> Install the Seeing Ecology Skill from `https://github.com/sahmoli/seeing-ecology` (or read `https://juanli.me/seeing-ecology/agent/SKILL.md`) to query primary-literature-verified ecology concepts and concept relations.
-
-Or run the dependency-free Python query script directly:
-```bash
-python3 seeing-ecology/scripts/query_seeing_ecology.py --lang en --q flagship
-```
-
-### Public Machine-Readable Endpoints (No API Key Required)
-- **Agent Skill Instructions**: [`https://juanli.me/seeing-ecology/agent/SKILL.md`](https://juanli.me/seeing-ecology/agent/SKILL.md)
 - **`llms.txt` (Concise Markdown Index)**: [`https://juanli.me/seeing-ecology/llms.txt`](https://juanli.me/seeing-ecology/llms.txt)
 - **`llms-full.txt` (Complete Concept Graph Reference)**: [`https://juanli.me/seeing-ecology/llms-full.txt`](https://juanli.me/seeing-ecology/llms-full.txt)
 - **Concepts JSON API (`v1`)**: [`https://juanli.me/seeing-ecology/api/v1/concepts.json`](https://juanli.me/seeing-ecology/api/v1/concepts.json)
